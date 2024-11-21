@@ -1,0 +1,89 @@
+# Директории сборки
+build/
+cmake-build*/
+
+# Сгенерированные CMake файлы
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Testing/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps
+
+# Файлы IDE
+## VSCode
+.vscode/
+*.code-workspace
+
+## Visual Studio
+.vs/
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.suo
+ipch/
+*.sdf
+*.opensdf
+*.VC.db
+*.VC.opendb
+
+# Скомпилированные файлы
+## Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+## Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+## Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+
+# Файлы отладки
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Файлы операционной системы
+## Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+## macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+## Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+[Dd]esktop.ini
+
+# Файлы nix
+.direnv/
+result
+result-*
+
+# Логи и дампы
+*.log
+core
